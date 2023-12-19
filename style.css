@@ -17,6 +17,11 @@ body {
 
 .headerbody {
     display: flex;
+    margin-top: 48px;
+}
+
+.headerbody p{
+    margin: 8px 0;
 }
 
 .left {
@@ -28,6 +33,11 @@ button {
     width: 74px;
     flex-basis: auto;
     flex-grow: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
 }
 
 h3 {

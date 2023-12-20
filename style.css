@@ -8,16 +8,37 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     margin: 8px 24px;
+    color: #E5E7EB;
 }
 
 .header {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+h2 {
+    margin:auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
 }
 
 .headerbody {
     display: flex;
     margin-top: 48px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .headerbody p{
@@ -33,6 +54,8 @@ button {
     width: 74px;
     flex-basis: auto;
     flex-grow: 0;
+    background-color: #3882F6;
+    color: white;
 }
 
 h1 {

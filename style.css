@@ -3,6 +3,11 @@ body {
     flex-direction: column;
 }
 
+button {
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
 .links {
     display: flex;
     justify-content: space-between;
@@ -17,6 +22,28 @@ body {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    margin: 72px;
+    padding: 32px;
+    color: white;
+    border-radius: 8px;
+}
+
+.bold {
+    font-weight: 1000;
+}
+
+.bottom button{
+    border-color: white;
+} 
+
+.bottom p {
+    margin: 0;
 }
 
 .body p {

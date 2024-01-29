@@ -86,11 +86,15 @@ h2 {
 .icons {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    align-items: baseline  ;
+    gap: 48px;
     text-align: center;
 }
 
 .icons div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 120px;
 }
 
@@ -99,10 +103,16 @@ h2 {
     margin: 80px 96px;
     background-color: #1F2937;
     color: #F9FAF8;
+    gap: 48px
 }
 
 .headerbody p{
     margin: 8px 0;
+}
+
+.headerbody img {
+    display: flex;
+    margin: auto
 }
 
 .left {
